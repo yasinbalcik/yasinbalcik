@@ -23,7 +23,11 @@ My background combines hands-on engineering with enterprise sales of financial s
 
 | Project | Description | Stack |
 | --- | --- | --- |
-| [ubl-tr-kit](https://github.com/yasinbalcik/ubl-tr-kit) | Zero-dependency toolkit for Turkish e-invoicing: totals in integer kuruş, UBL-TR 2.1 XML, VKN/TCKN/IBAN validation, amount-in-words | TypeScript, Vitest |
+| [ubl-tr-kit](https://github.com/yasinbalcik/ubl-tr-kit) | Zero-dependency toolkit for Turkish e-invoicing: totals in integer kuruş, UBL-TR 2.1 XML generation, VKN/TCKN/TR-IBAN validation, amount-in-words | TypeScript, Vitest |
+| [mt940-camt-parser](https://github.com/yasinbalcik/mt940-camt-parser) | Zero-dependency dual parser for SWIFT MT940 flat text and ISO 20022 CAMT.053 XML bank statements into normalized, exact Decimal models | Python, Unittest |
+| [recon-engine](https://github.com/yasinbalcik/recon-engine) | Automated multi-tier financial reconciliation engine matching bank statement transactions against open receivables with confidence scoring | Python, Unittest |
+| [ledger-core](https://github.com/yasinbalcik/ledger-core) | Zero-dependency immutable double-entry general ledger engine with Turkish Uniform Chart of Accounts (TDHP: 100, 102, 120, 320, 391, 600) and integer kuruş math | TypeScript, Vitest |
+| [payment-webhook-relay](https://github.com/yasinbalcik/payment-webhook-relay) | Zero-dependency reliable payment webhook ingestion and dispatch relay with timing-safe HMAC, idempotency locks, and exponential backoff DLQ | TypeScript, Vitest |
 
 ---
 

@@ -12,6 +12,7 @@ My background combines hands-on engineering with enterprise sales of financial s
 
 **Focus areas**
 
+- Open Banking: TCMB & BKM ÖHVPS 2.0.1 (GEÇİT), HBH (Account Information), ÖEH (Payment Initiation), FAST, Kolas, detached JWS (RFC 7515 / 7797)
 - E-Transformation: UBL-TR 2.1, e-Fatura / e-Arşiv / e-İrsaliye data models and validation
 - Payments and banking: IBAN, statement parsing, reconciliation, idempotent webhook processing
 - Ledgers: double-entry accounting, integer money arithmetic, audit trails
@@ -23,6 +24,7 @@ My background combines hands-on engineering with enterprise sales of financial s
 
 | Project | Description | Stack |
 | --- | --- | --- |
+| [ohvps-kit](https://github.com/yasinbalcik/ohvps-kit) | Zero-dependency TypeScript SDK for TCMB & BKM ÖHVPS 2.0.1 (Open Banking GEÇİT): HBH (Account Information), ÖEH (Payment Initiation), detached JWS signing, and consent state machine | TypeScript, Vitest |
 | [ubl-tr-kit](https://github.com/yasinbalcik/ubl-tr-kit) | Zero-dependency toolkit for Turkish e-invoicing: totals in integer kuruş, UBL-TR 2.1 XML generation, VKN/TCKN/TR-IBAN validation, amount-in-words | TypeScript, Vitest |
 | [mt940-camt-parser](https://github.com/yasinbalcik/mt940-camt-parser) | Zero-dependency dual parser for SWIFT MT940 flat text and ISO 20022 CAMT.053 XML bank statements into normalized, exact Decimal models | Python, Unittest |
 | [recon-engine](https://github.com/yasinbalcik/recon-engine) | Automated multi-tier financial reconciliation engine matching bank statement transactions against open receivables with confidence scoring | Python, Unittest |

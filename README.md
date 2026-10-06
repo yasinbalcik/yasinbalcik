@@ -3,7 +3,6 @@
 
 <p align="left">
   <a href="https://linkedin.com/in/yasinbalcik"><img src="https://img.shields.io/badge/LinkedIn-Yasin%20Bal%C3%A7%C4%B1k-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://yasinbalcik.com"><img src="https://img.shields.io/badge/Web-yasinbalcik.com-111827?style=for-the-badge" alt="Website" /></a>
   <a href="mailto:yasinbalcik74@gmail.com"><img src="https://img.shields.io/badge/Email-yasinbalcik74%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 

@@ -15,6 +15,7 @@ My background combines hands-on engineering with enterprise sales of financial s
 - E-Transformation: UBL-TR 2.1, e-Fatura / e-Arşiv / e-İrsaliye data models and validation
 - Payments and banking: IBAN, statement parsing, reconciliation, idempotent webhook processing
 - Ledgers: double-entry accounting, integer money arithmetic, audit trails
+- AI tooling: terminal agents, multi-provider key pooling, MCP, Orca/Electron integration
 - Full-stack: TypeScript, Node.js, Next.js, Python, PostgreSQL, Redis, Docker
 
 ---
@@ -23,6 +24,7 @@ My background combines hands-on engineering with enterprise sales of financial s
 
 | Project | Description | Stack |
 | --- | --- | --- |
+| [SyzerCLI](https://github.com/yasinbalcik/SyzerCLI) | Terminal AI agent for OpenRouter & NVIDIA: multi-key pool with automatic key/model failover, parallel subagents, MCP, web UI, and a native Orca integration (status, usage, session restore). Installs with one PowerShell line or `npm i -g` | Node.js, Electron patching |
 | [ohvps-kit](https://github.com/yasinbalcik/ohvps-kit) | Zero-dependency TypeScript SDK for TCMB & BKM ÖHVPS 2.0.1 (Open Banking GEÇİT): HBH (Account Information), ÖEH (Payment Initiation), detached JWS signing, and consent state machine | TypeScript, Vitest |
 | [tcmb-fx-engine](https://github.com/yasinbalcik/tcmb-fx-engine) | Zero-dependency TypeScript engine for TCMB exchange rates, EVDS parsing, cross-currency math, and corporate revaluation (VUK & TDHP 646/656) | TypeScript, Vitest |
 | [ubl-despatch-kit](https://github.com/yasinbalcik/ubl-despatch-kit) | Zero-dependency toolkit for Turkish e-İrsaliye (UBL-TR 2.1 Despatch Advice): XML generation, volumetric freight/desi math, and carrier dispatching | TypeScript, Vitest |

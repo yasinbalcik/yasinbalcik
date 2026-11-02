@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="150" viewBox="0 0 420 150" role="img" aria-label="ubl-tr-kit: Turkish e-invoicing toolkit: integer-kuruş totals, UBL-TR 2.1 XML, VKN/TCKN/TR-IBAN validation, amount-in-words.">
+<title>ubl-tr-kit</title>
+<style>
+  :root { --bg:#FFFFFF; --panel:#F6F8FA; --border:#D0D7DE; --fg:#1F2328; --muted:#59636E; --grid:#EAEEF2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0D1117; --panel:#161B22; --border:#30363D; --fg:#E6EDF3; --muted:#9198A1; --grid:#1B222C; }
+  }
+  .bg { fill: var(--bg); } .panel { fill: var(--panel); stroke: var(--border); }
+  .fg { fill: var(--fg); } .muted { fill: var(--muted); } .grid { stroke: var(--grid); }
+</style>
+<rect class="panel" x="0.5" y="0.5" width="419" height="149" rx="10"/>
+<clipPath id="c"><rect x="0.5" y="0.5" width="419" height="149" rx="10"/></clipPath>
+<rect clip-path="url(#c)" x="0" y="0" width="4" height="150" fill="#10B981"/>
+<text x="20" y="26" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.2" fill="#10B981">E-TRANSFORMATION</text>
+<text class="fg" x="20" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700">ubl-tr-kit</text>
+<text x="400" y="50" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" class="muted">↗</text>
+<text class="muted" x="20" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">Turkish e-invoicing toolkit: integer-kuruş totals, UBL-TR</text>
+<text class="muted" x="20" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">2.1 XML, VKN/TCKN/TR-IBAN validation, amount-in-words.</text>
+<g transform="translate(20,118)"><rect width="84" height="20" rx="10" fill="#10B981" fill-opacity="0.14"/><text x="42" y="14" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#10B981">TypeScript</text></g><g transform="translate(110,118)"><rect width="57.599999999999994" height="20" rx="10" fill="#10B981" fill-opacity="0.14"/><text x="28.799999999999997" y="14" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#10B981">Vitest</text></g>
+</svg>

@@ -76,7 +76,7 @@ function wrap(text, maxChars) {
 function card({ slug, domain, stack, desc }) {
   const W = 420, H = 150;
   const { label, accent } = DOMAINS[domain];
-  const lines = wrap(desc, 60).slice(0, 3);
+  const lines = wrap(desc, 56).slice(0, 3);
   let x = 20;
   const chips = stack
     .map((s) => {
